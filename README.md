@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isLayout from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-layout@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-assert-is-layout/tags). For example,
+
+```javascript
 import isLayout from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-layout@v0.0.1-esm/index.mjs';
 ```
 
@@ -93,7 +98,7 @@ bool = isLayout( 'column-major' );
 <body>
 <script type="module">
 
-import isLayout from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-layout@v0.0.1-esm/index.mjs';
+import isLayout from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-layout@esm/index.mjs';
 
 var bool = isLayout( 'row-major' );
 // returns true
