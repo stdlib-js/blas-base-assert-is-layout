@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isLayout from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-layout@esm/index.mjs';
+import isLayout from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-layout@v0.0.2-esm/index.mjs';
 ```
 
 #### isLayout( value )
@@ -93,7 +93,7 @@ bool = isLayout( 'column-major' );
 <body>
 <script type="module">
 
-import isLayout from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-layout@esm/index.mjs';
+import isLayout from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-layout@v0.0.2-esm/index.mjs';
 
 var bool = isLayout( 'row-major' );
 // returns true
